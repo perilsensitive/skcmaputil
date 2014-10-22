@@ -60,13 +60,27 @@ To add new mappings stored in a file called 'gamecontrollerdb.txt':
 
     skcmaputil append global.pak tmp.pak gamecontrollerdb.txt
 
-To replace the mappings those from a file called 'gamecontrollerdb.txt':
+To replace the mappings with those from a file called 'gamecontrollerdb.txt':
 
     skcmaputil replace global.pak tmp.pak gamecontrollerdb.txt
 
 When skcmaputil is done, it will have created a new PAK file ('tmp.pak' in the
 examples above).  Copy the new PAK file on top of 'global.pak' to put the
 modified version in place.
+
+Creating or Finding Mappings
+----------------------------
+If you need to create or find a mapping for your controller, you can try the
+gamecontrollerdb.txt file included in the source code (or zipfile of the binary).
+This is derived from the database found here:
+
+https://raw.githubusercontent.com/gabomdq/SDL_GameControllerDB/master/gamecontrollerdb.txt
+
+You can create your own mapping using AntiMicro, which can be downloaded from
+https://github.com/Ryochan7/antimicro/releases
+
+Once you create a mapping, consider contributing it to the SDL_GameControllerDB project:
+https://github.com/gabomdq/SDL_GameControllerDB
 
 Bugs
 ----
