@@ -76,10 +76,12 @@ This is derived from the database found here:
 
 https://raw.githubusercontent.com/gabomdq/SDL_GameControllerDB/master/gamecontrollerdb.txt
 
-You can create your own mapping using AntiMicro, which can be downloaded from
+You can create your own mapping using AntiMicro, which can be downloaded from here:
+
 https://github.com/Ryochan7/antimicro/releases
 
 Once you create a mapping, consider contributing it to the SDL_GameControllerDB project:
+
 https://github.com/gabomdq/SDL_GameControllerDB
 
 Bugs
@@ -93,9 +95,9 @@ You can contact me at perilsensitive@gmail.com.
 
 Legal Stuff
 -----------
-Shovel Knight is copyright Yacht Club Games
+Shovel Knight is the property of Yacht Club Games.
 
-Steam is copyright Valve
+Steam is the property of Valve Corporation.
 
 I am not affiliated with either Yacht Club Games or Valve.
 
