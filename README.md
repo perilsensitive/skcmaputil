@@ -64,9 +64,9 @@ To replace the mappings those from a file called 'gamecontrollerdb.txt':
 
     skcmaputil replace global.pak tmp.pak gamecontrollerdb.txt
 
-If you created new pack file (like 'tmp.pak' in the examples above),
-just copy 'tmp.pak' on top of 'global.pak' to put the modified version
-in place.
+When skcmaputil is done, it will have created a new PAK file ('tmp.pak' in the
+examples above).  Copy the new PAK file on top of 'global.pak' to put the
+modified version in place.
 
 Bugs
 ----
