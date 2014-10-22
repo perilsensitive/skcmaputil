@@ -5,13 +5,13 @@ a utility for viewing and modifying the SDL GameController mapping lists
 stored in Shovel Knight's global.pak file.
 
 Supported Platforms
-===================
+-------------------
 * Linux
 * Windows
 * Mac OS X (untested, but really all *nix platforms should work)
 
 Features
-========
+--------
 * List the GameController mappings in the specified PAK file for all
   supported platforms. The mappings are output in a format that can be easily
   stored in a text file for editing and later use. It is also usable by
@@ -26,17 +26,17 @@ Features
   to those in the PAK file or replace them entirely.
 
 Compiling
-=========
+---------
 Run 'make'.  That's it. :-)
 
 Installing
-==========
+----------
 Copy the skcmaputil binary someplace useful.  Your Shovel Knight installation
 directory/folder is a good choice.  If you're installing from the zipfile, just
 extract it where you want the skcmaputil binary to be installed.
 
 Running
-=======
+-------
 First, you'll want to create a backup of your global.pak file.  This can be found
 in the directory or folder called 'data' where Shovel Knight is installed.  You
 can call this backup whatever you'd like (e.g, 'global.pak.bak').  This backup is
@@ -69,15 +69,16 @@ just copy 'tmp.pak' on top of 'global.pak' to put the modified version
 in place.
 
 Bugs
-====
-Bug reports can be filed on the GitHub page.
+----
+Bug reports can be filed on the GitHub issues page:
+https://github.com/perilsensitive/skcmaputil/issues
 
 Contact
-=======
+-------
 You can contact me at perilsensitive@gmail.com.
 
 Legal Stuff
-===========
+-----------
 Shovel Knight is copyright Yacht Club Games
 Steam is copyright Valve
 
