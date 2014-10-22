@@ -50,19 +50,19 @@ Windows user.
 
 To view the mappings stored in the global.pak file:
 
-skcmaputil dump global.pak
+    skcmaputil dump global.pak
 
 To remove all mappings from the global.pak file:
 
-skcmaputil clear global.pak tmp.pak
+    skcmaputil clear global.pak tmp.pak
 
 To add new mappings stored in a file called 'gamecontrollerdb.txt':
 
-skcmaputil append global.pak tmp.pak gamecontrollerdb.txt
+    skcmaputil append global.pak tmp.pak gamecontrollerdb.txt
 
 To replace the mappings those from a file called 'gamecontrollerdb.txt':
 
-skcmaputil replace global.pak tmp.pak gamecontrollerdb.txt
+    skcmaputil replace global.pak tmp.pak gamecontrollerdb.txt
 
 If you created new pack file (like 'tmp.pak' in the examples above),
 just copy 'tmp.pak' on top of 'global.pak' to put the modified version
@@ -80,6 +80,7 @@ You can contact me at perilsensitive@gmail.com.
 Legal Stuff
 -----------
 Shovel Knight is copyright Yacht Club Games
+
 Steam is copyright Valve
 
 I am not affiliated with either Yacht Club Games or Valve.
