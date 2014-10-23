@@ -73,7 +73,7 @@ Note on Updates
 Official updates to Shovel Knight may replace global.pak with a new version.
 If that happens, your custom mappings will no longer be installed and your
 controller will not work (unless the update happens to include compatible
-mappings, of course).  If this happens, just use skcmaputil to install the
+mappings, of course).  If this happens, just use skcmaputil to install 
 your mappings into the new version of global.pak.  Keeping a copy of your
 custom mappings in a text file is a good idea so that you don't completely lose them due to an upgrade.
 
