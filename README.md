@@ -42,7 +42,7 @@ in the directory or folder called 'data' where Shovel Knight is installed.  You
 can call this backup whatever you'd like (e.g, 'global.pak.bak').  This backup is
 there so that you can restore the original file in case something goes wrong.  If
 something does go wrong, just copy your backup file on top of global.pak to make
-Shovel Kight work again.
+Shovel Knight work again.
 
 Here are some example commands.  These assume you've put skcmaputil somewhere in
 your path, or possibly the Shovel Knight data directory if you're a
@@ -67,6 +67,15 @@ To replace the mappings with those from a file called 'gamecontrollerdb.txt':
 When skcmaputil is done, it will have created a new PAK file ('tmp.pak' in the
 examples above).  Copy the new PAK file on top of 'global.pak' to put the
 modified version in place.
+
+Note on Updates
+---------------
+Official updates to Shovel Knight may replace global.pak with a new version.
+If that happens, your custom mappings will no longer be installed and your
+controller will not work (unless the update happens to include compatible
+mappings, of course).  If this happens, just use skcmaputil to install the
+your mappings into the new version of global.pak.  Keeping a copy of your
+custom mappings in a text file is a good idea so that you don't completely lose them due to an upgrade.
 
 Creating or Finding Mappings
 ----------------------------
