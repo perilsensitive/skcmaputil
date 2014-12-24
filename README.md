@@ -1,8 +1,8 @@
 skcmaputil
 ==========
-skcmaputil (for 'Shovel Knight Controller Map Utility') is exactly that:
-a utility for viewing and modifying the SDL GameController mapping lists
-stored in Shovel Knight's global.pak file.
+skcmaputil (for 'Shovel Knight Controller Map Utility') is a utility
+for viewing and modifying the SDL GameController mapping lists stored
+in Shovel Knight's global.pak file.
 
 Supported Platforms
 -------------------
